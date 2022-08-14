@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.header{
+    padding: 20px;
+    line-height: 36px;
+}
+.header__left{
+    float: left;
+}
+.header__right{
+    float: right;
+}
+ul li{
+    display: inline-block;
+    
+}
+.header__right--appicon{
+    vertical-align: middle;
+    
+}
+.header__right--button{
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    width: 70px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.header__right--button:hover{
+    text-decoration: none;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+.header__right--button:active{
+    box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.15);
+}
+.main{
+    margin-top: 200px;
+    text-align: center;
+}
+.main__logo{
+    height: 92px;
+    width: 272px;
+}
+.main__searchbar{
+    text-align: center;
+    width: 480px;
+    height: 38px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.main__searchbar--input{
+    width: 380px ;
+    height: 34px;
+    font-size: 16px;
+    padding: 3px;
+    /* border-radius: 25px; */
+    outline: none;
+    border: none;
+}
+#mag{
+    /* height: 30px; */
+    width: 30px;
+    /* position: relative;
+    top: 10px; */
+    /* right: 375px; */
+    vertical-align:middle;
+}
+#microphone{
+    /* position: relative;
+    top: 5px;
+    height: 25px; */
+    width: 20px;
+    vertical-align: middle;
+}
+.main__button--left, .main__button--right{
+    width: 146px;
+    height: 36px;
+    border-radius: 8px;
+    margin: 30px 0px;
+    padding: 0px 16px;
+    border: none;
+}
+.main__button--left:hover, .main__button--right:hover{
+    box-shadow: 3px 3px 5px lightgrey;
+    cursor: pointer;
+}
+.main__language a:hover{
+    text-decoration: underline;
+}
+footer {
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+    line-height: 40px;
+    background-color: #F2F2F2;
+    font-size: 14px;
+}
+.footer__country {
+    padding-left: 20px;
+    border-bottom: 1px solid #5F6368;
+    font-size: 14px;
+}
+.footer__bottom--right {
+    float: right;
+}
+.footer__bottom--left {
+    float: left;
+}
